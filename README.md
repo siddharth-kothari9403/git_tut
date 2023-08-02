@@ -1,5 +1,5 @@
 ```
-2004  git init
+ 2004  git init
  2005  ls -1
  2006  cd git_tut
  2007  git init
@@ -45,4 +45,22 @@
  2047  git merge new-feature
  2048  git branch
  2049  git push -u origin main
+ 2083  git checkout -b "new_feature"
+ 2084  git branch
+ 2085  touch newfile.txt
+ 2086  echo "IMT2021019" > newfile.txt
+ 2087  git remote add upstream
+ 2088  git remote add upstream https://github.com/chinmayparekh/SE-Lab-Git.git
+ 2089  git add .
+ 2090  git commit -m "IMT2021019"
+ 2091  git push
+ 2092  git checkout main
+ 2093  git branch
+ 2094  git merge new_feature
+ 2095  git add /
+ 2096  git add .
+ 2097  git commit -m "IMT2021019"
+ 2098  git push -u origin main
+ 2099  history
+```
 ```
